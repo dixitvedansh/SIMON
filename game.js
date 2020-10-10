@@ -24,6 +24,13 @@ $(document).on("keydown" , function() {
   }
 } );
 
+$("h1").on("click" , function() {
+  if (!started){
+    nextSequence();
+    started = true;
+  }
+});
+
 // nextSequence() produces sequence of randomly generated buttonColors
 
 function nextSequence() {
