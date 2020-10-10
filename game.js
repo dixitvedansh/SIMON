@@ -17,7 +17,7 @@ $(".btn").on("click" ,function() {
 });
 
 // event listener for key press to start the game
-$(document).on("keydown" , function() {
+$(document).on("keydown tap" , function() {
   if (!started){
     nextSequence();
     started = true;
