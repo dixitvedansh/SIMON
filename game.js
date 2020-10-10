@@ -24,12 +24,7 @@ $(document).on("keydown" , function() {
   }
 } );
 
-$(document).on("tap" , function() {
-  if (!started){
-    nextSequence();
-    started = true;
-  }
-});
+
 
 // nextSequence() produces sequence of randomly generated buttonColors
 
