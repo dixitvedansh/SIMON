@@ -86,5 +86,6 @@ function animateIt(currentColor) {
 function startOver() {
   count = 0;
   gamePattern=[];
+  userClickedPattern = [];
   started = false;
 }
