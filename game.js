@@ -24,7 +24,7 @@ $(document).on("keydown" , function() {
   }
 } );
 
-$("h1").on("click" , function() {
+$("h1").on("tap" , function() {
   if (!started){
     nextSequence();
     started = true;
